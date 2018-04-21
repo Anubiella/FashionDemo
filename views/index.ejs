@@ -1,0 +1,82 @@
+<% include partials/header %>
+
+       <main class="main-container">
+
+           <div class="intro">
+               <h1 class="logo"></h1>
+               <div class="image-video">
+                   <div class="video-container">
+                        <video class="home-video-play" id="home-video" autoplay muted loop>
+                            <source src="img/video.mp4" type="video/mp4" media="all and (min-width:500px)"> 
+                            <source src="img/video-small.mp4" type="video/mp4" media="all and (max-width:499px)"> 
+                            Your browser is not supported. Please update it
+                        </video>
+                   </div>
+               </div>
+           </div>
+
+           <a class="row" href="/streetware">
+               <div class="big-image-container big-image-container-green">
+                   <img srcset="img/img1-small.jpg 1000w, img/img1.jpg 2000w" alt="Big Image 1"
+                    sizes="(max-width: 62.5em) 100vw, (min-width: 62.6em) 70vw, 1000px" 
+                    src="img/img1.jpg">
+               </div>
+                <div class="col-image-container col-image-container-green">
+                    <img srcset="img/img2-small.jpg 500w, img/img2.jpg 1000w" alt="Small Image 1"
+                    sizes="(max-width: 62.5em) 50vw, (min-width: 62.6em) 30vw, 400px" 
+                    src="img/img2.jpg">
+                </div>
+                <div class="col-text-container col-text-container-green">
+                    <h2 class="header2 col-text-h2">Streetware</h2>
+                    <h2 class="header2 col-text-h2">Guerrilla</h2>
+                </div>
+            </a>
+
+            <a class="row" href="/modelling">
+                <div class="col-text-container col-text-container-red">
+                    <h1 class="logo1"></h1>
+                </div>
+                <div class="big-image-container big-image-container-red">
+                    <img srcset="img/img3-small.jpg 400w, img/img3.jpg 1000w" alt="Big Image 2"
+                    sizes="(max-width: 80em) 33vw, 450px" 
+                    src="img/img3.jpg">
+                </div>
+                <div class="col-image-container col-image-container-red">
+                    <img srcset="img/img4-small.jpg 400w, img/img4.jpg 1000w" alt="Small Image 2"
+                    sizes="(max-width: 80em) 33vw, 450px" 
+                    src="img/img4.jpg">
+                </div>     
+            </a>
+
+            <a class="row" href="/clubs">
+                <div class="big-image-container big-image-container-pink">
+                    <img srcset="img/img8-small.jpg 900w, img/img8.jpg 1800w" alt="Big Image 3"
+                    sizes="(max-width: 56.25em) 100vw, (min-width: 56.26em) 50vw, 700px" 
+                    src="img/img8.jpg">
+                </div>  
+                <div class="col-text-container col-text-container-pink">
+                    <h2 class="header2 col-text-h2-pink">Clubbing</h2>
+                    <h2 class="header2 col-text-h2-pink">and</h2>
+                    <h2 class="header2 col-text-h2-pink">performings</h2>
+                </div>
+                <div class="col-image-container col-image-container-pink">
+                    <img srcset="img/img6.jpg 1500w" alt="Small Image 3"
+                    sizes="(max-width: 80em) 50vw, 500px" 
+                    src="img/img6.jpg">
+                </div>
+            </a>
+
+            <a class="row" href="/showroom">
+                <div class="col-text-container col-text-container-white">
+                    <h1 class="logo2"></h1>
+                </div>
+                <div class="big-image-container big-image-container-white">
+                    <img srcset="img/img9-small.jpg 600w, img/img9.jpg 2000w" alt="Big Image 4"
+                    sizes="(max-width: 31.25em) 50vw, (min-width: 31.26em) 65vw, 800px" 
+                    src="img/img9.jpg">
+                </div>
+            </a>
+       </main>
+
+
+<% include partials/footer %>

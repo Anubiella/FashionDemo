@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <link rel="stylesheet" href="/style.css">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+        
+        <title>FashionDemo - Fashion retail website</title>
+        <style>
+            body {
+                background-color: <%= backCol %>;
+            }
+        </style>
+    </head>
+    <body id="body">
+
+        <div id="loader-wrapper">
+			<div id="loader-logo">SF</div>
+        </div>
+        
+        <header class="navigation">
+            <input type="checkbox" class="navigation__checkbox" id='navi-toggle'>
+            <label for="navi-toggle" class='navigation__button'>
+              <span class="navigation__icon">&nbsp;</span>
+            </label>
+            <div class="navigation__background">&nbsp;</div>
+            <nav class="navigation__nav">
+              <ul class="navigation__list">
+                <li class="navigation__item"><a href="/" class="navigation__link">Home</a></li>
+                <li class="navigation__item"><a href="/about" class="navigation__link">About us</a></li>
+                <li class="navigation__item"><a href="/clients" class="navigation__link">Clients</a></li>
+                <li class="navigation__item"><a href="/projects" class="navigation__link">Projects</a></li>
+                <li class="navigation__item"><a href="/showroom" class="navigation__link">Showroom</a></li>
+              </ul>
+            </nav>
+        </header>
