@@ -47,7 +47,7 @@ app.get('/arts', (req, res) => {
 });
 
 app.get('*', (req, res)=>{
-    res.redirect(404, 'back');
+    res.status(404).render('404', {backCol: "transparent"});
 });
 
 app.listen(port, ()=>{
