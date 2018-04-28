@@ -17,8 +17,8 @@
   "author": "Lorenzo Furno",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^8.1.0",
-    "node-sass": "^4.7.2",
+    "autoprefixer": "^8.4.1",
+    "node-sass": "^4.9.0",
     "npm-run-all": "^4.1.2",
     "postcss-cli": "^5.0.0"
   },
